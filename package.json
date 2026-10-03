@@ -1,0 +1,25 @@
+{
+  "name": "git-scribe-cli",
+  "version": "1.0.0",
+  "description": "Developer automation CLI tool for conventional changelog generation, release notes, and repository health auditing.",
+  "main": "src/index.js",
+  "bin": {
+    "git-scribe": "./bin/git-scribe.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/git-scribe.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "changelog",
+    "conventional-commits",
+    "release-notes",
+    "audit",
+    "developer-tools"
+  ],
+  "author": "Developer Portfolio",
+  "license": "MIT"
+}
